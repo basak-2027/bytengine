@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bytE Engine</title>
+    <link rel="stylesheet" href="style.css" />
+    
+    <link rel="icon" type="image/x-icon" href="favcon.jpg">
+  </head>
+  <body>
+    <h1 class="hone">bytE Engine</h1>
+    <header>
+        <nav>
+            <ul>
+              <li><a href="#" id="home-link">Home</a></li>
+              <li><a href="#" id="about-link">About</a></li>
+              <li>
+                <a href="#" id="service-link">Service</a>
+              </li>
+              <li>
+                <a href="#" id="why-link">Why bytE Engine?</a>
+                <!-- Add an event listener to toggle the whybyte dropdown -->
+              </li>
+            </ul>
+          </nav>
+    </header>
+    <main>
+      <section class="home" id="home-section">
+        <h4>Welcome to bytE Engine</h4>
+        <p>We specialize in advanced ID verification and security services.</p>
+      </section>
+
+      <section class="about" id="about-section" style="display: none">
+        <h1>About Us</h1>
+        <p>
+          bytE Engine provides secure and reliable solutions for identity
+          verification, data management, and authentication services. Our team
+          of experts is dedicated to delivering innovative and effective
+          solutions that meet the evolving needs of our clients. We are
+          committed to providing exceptional customer service and support to
+          ensure that our clients receive the best possible experience.
+        </p>
+      </section>
+      <!-- Add an ID to the "Service" link -->
+<!-- <li><a href="#" id="service-link">Service</a></li> -->
+
+<!-- Update the service dropdown menu -->
+<section>
+  <ul class="service" id="service-dropdown" style="display: none">
+    <h1>Our Services</h1>
+    <li>Identity Verification</li>
+    <li>Data Protection</li>
+    <li>Secure Login Solutions</li>
+  </ul>
+</section>
+
+<section>
+    <ul class="Why" id="whybyte" style="display: none">
+      <b>Why bytE Engine?</b>
+      <li>Data-Driven Identity Verification: Byte is a term that signifies digital data, which is crucial for any ID verification system. Your project involves managing user data, such as ID numbers (Aadhar, PAN, etc.), which makes "byte" a meaningful and relevant term. Since your system verifies IDs and handles sensitive data, "bytE" reflects the foundation of data processing—handling and verifying data digitally.</li>
+      <li>Power and Efficiency: An Engine symbolizes power and efficiency. Your system efficiently drives the process of ID verification, ensuring security, trust, and seamless access for users after authentication. The "engine" metaphor further emphasizes that your platform is the driving force behind secure, fast, and reliable verification.</li>
+      <li>Security and Trust: The name evokes confidence in users that the platform is both trustworthy and secure. ID verification is a sensitive process, and "bytE Engine" suggests that your platform is built to handle it robustly and safely. With data breaches and fraud as growing concerns, a name like "bytE engine" builds an association with technical reliability and security, which are essential in identity verification services.</li>
+      <li>Future-Oriented and Tech-Savvy: The stylized name "bytE" represents innovation and a modern approach. As ID verification and trust-based services evolve, a name that is tied to the digital core (bytes of data) shows that your project is geared for the future of secure digital identity management.</li>
+      <p><h4>In summary, "bytE engine" aligns well with your project's focus on digital identity verification, data security, and efficiency, all while portraying a cutting-edge, reliable system.</h4></p>
+    </ul>
+  </section>
+
+
+    
+    </main>
+
+    
+  </body>
+</html>
+
+      <section class="upload">
+        <h1>Upload Document</h1>
+        <input type="file" id="document-upload" />
+        <button id="scan-button">Scan Document</button>
+      </section>
+
+      <section class="results">
+        <h1>Scan Results</h1>
+        <div class="results-container">
+          <!-- Scan results will be displayed here -->
+        </div>
+      </section>
+
+      <section class="report">
+        <h1>Report</h1>
+        <table id="report-table">
+          <thead>
+            <tr>
+              <th>Type</th>
+              <th>Location</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Report data will be displayed here -->
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+  <script src="script.js"></script>
+  </body>
+</html>
